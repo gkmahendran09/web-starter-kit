@@ -23,7 +23,12 @@ gulp.task('nunjucks', function() {
 
   // Renders template with nunjucks
   .pipe(nunjucksRender({
-      path: ['resources/views/templates']
+      path: ['resources/views/templates'],
+      data: {
+        css_path: 'Content/Styles/',
+        images_path: 'Content/Images/',
+        scripts_path: 'Scripts/',
+      }
     }))
 
   // prettify html
