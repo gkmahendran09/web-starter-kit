@@ -1,4 +1,4 @@
 /node_modules
 /public/*.html
-/public/Content/Styles/main.css
+/public/Content/Styles/styles.css
 .DS_Store
